@@ -22,6 +22,11 @@ body {
     display: flex;
 }
 
+.col-50 {
+    width: 50%;
+    display: flex;
+}
+
 label {
     color: white;
     padding: 5px;
@@ -210,4 +215,43 @@ main .col-33 {
 
 #img6:hover + #img6b {
     display: block;
+}
+
+/* footer */
+
+footer {
+    height: 60px;
+    color: white;
+    background-color: rgb(26, 26, 26);
+    border-bottom: 2px solid rgb(196, 196, 196);
+}
+
+footer h3 {
+    font-size: 15px;
+    margin-bottom: 10px;
+}
+
+footer ul {
+    font-size: 10px;
+    list-style-type: none;
+    display: flex;
+}
+
+footer li {
+    margin-right: 5px;
+}
+
+footer .col-50.left {
+    flex-direction: column;
+    justify-content: center;
+}
+
+footer .col-50.right {
+    flex-direction: column;
+    justify-content: center;
+    align-items: flex-end;
+}
+
+footer i {
+    font-size: 15px;
 }
