@@ -22,6 +22,41 @@ body {
     display: flex;
 }
 
+label {
+    color: white;
+    padding: 5px;
+}
+
+.discount {
+    background-color: red;
+    position: absolute;
+    bottom: 50px;
+    left: 0;
+}
+
+.sustainability {
+    background-color: green;
+    position: absolute;
+    bottom: 50px;
+    left: 50px;
+}
+
+.favourite {
+    background-color: white;
+    position: absolute;
+    top: 5px;
+    right: 0px;
+}
+
+.new-price {
+    color: red;
+}
+
+.old-price {
+    font-size: 15px;
+    text-decoration: line-through;
+}
+
 /* sezione header */
 
 header {
@@ -65,7 +100,7 @@ header i {
 /* main */
 
 .container-cards {
-    margin-top: 50px;
+    margin: 50px 0;
 }
 
 .container-cards .row {
@@ -73,8 +108,106 @@ header i {
 }
 
 main .col-33 {
-    margin: 0 10px 10px 0;
+    margin: 0 10px 50px 0;
     width: calc(100% / 3 - 10px);
-    height: 300px;
-    background-color: blue;
+}
+
+.card {
+    width: 100%;
+}
+
+.card img {
+    width: 100%;
+}
+
+.image {
+    position: relative;
+}
+
+/* prima card */
+
+#img1b {
+    display: none;
+}
+
+#img1:hover {
+    display: none;
+}
+
+#img1:hover + #img1b {
+    display: block;
+}
+
+/* seconda card */
+
+#img2b {
+    display: none;
+}
+
+#img2:hover {
+    display: none;
+}
+
+#img2:hover + #img2b {
+    display: block;
+}
+
+/* terza card */
+
+#img3b {
+    display: none;
+}
+
+#img3:hover {
+    display: none;
+}
+
+#img3:hover + #img3b {
+    display: block;
+}
+
+/* quarta card */
+
+#img4b {
+    display: none;
+}
+
+#img4:hover {
+    display: none;
+}
+
+#img4:hover + #img4b {
+    display: block;
+}
+
+/* quinta card */
+
+#img5b {
+    display: none;
+}
+
+#img5:hover {
+    display: none;
+}
+
+#img5:hover + #img5b {
+    display: block;
+}
+
+/* sesta card */
+
+.col-33:last-of-type .sustainability {
+    left: 0px;
+}
+
+#img6b {
+    display: none;
+}
+
+#img6:hover {
+    display: none;
+}
+
+#img6:hover + #img6b {
+    display: block;
 }

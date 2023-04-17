@@ -8,10 +8,11 @@
         <link rel="stylesheet" href="./css/styles.css">
         <link rel="preconnect" href="https://fonts.googleapis.com">
         <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
-        <link href="https://fonts.googleapis.com/css2?family=Roboto&display=swap" rel="stylesheet">
+        <link href="https://fonts.googleapis.com/css2?family=Roboto,Roboto:wght@700&display=swap" rel="stylesheet">
         <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css" integrity="sha512-iecdLmaskl7CVkqkXNQ/ZH/XLlvWZOJyj7Yy7tcenmpD1ypASozpmT/E0iPtmFIB46ZmdtAc9eNBvH0H/ZpiBw==" crossorigin="anonymous" referrerpolicy="no-referrer" />
     </head>
     <body>
+        <!-- header -->
         <header>
             <div class="row">
                 <div class="col-33 left">
@@ -30,17 +31,126 @@
                     <i class="fa-solid fa-bag-shopping" style="color: #ffffff;"></i>                </div>
             </div>
         </header>
+        <!-- main -->
         <main>
+            <!-- contenitore cards -->
             <div class="container-cards">
                 <div class="row">
-                    <div class="col-33"></div>
-                    <div class="col-33"></div>
-                    <div class="col-33"></div>
-                    <div class="col-33"></div>
-                    <div class="col-33"></div>
-                    <div class="col-33"></div>
+                    <div class="col-33">
+                        <!-- prima card -->
+                        <div class="card">
+                            <!-- contenitore immagine -->
+                            <div class="image">
+                                <img id="img1" src="./img/1.webp" alt="">
+                                <img id="img1b" src="./img/1b.webp" alt="">
+                                <label class="discount" for="">-50%</label>
+                                <label class="sustainability" for="">Sostenibilità</label>
+                                <label class="favourite" for=""><i class="fa-solid fa-heart" style="color: #000;"></i></label>
+                            </div>
+                            <!-- contenitore descrizione card -->
+                            <div class="description">
+                                <div class="brand">Levi's</div>
+                                <div class="product"><strong>RELAXED FIT TEE UNISEX</strong></div>
+                                <div class="price"><span class="new-price">14,99&#8364 </span><span class="old-price">29.99&#8364;</span></div>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="col-33">
+                        <!-- seconda card -->
+                        <div class="card">
+                            <!-- contenitore immagine -->
+                            <div class="image">
+                                <img id="img2" src="./img/2.webp" alt="">
+                                <img id="img2b" src="./img/2b.webp" alt="">
+                                <label class="discount" for="">-30%</label>
+                                <label class="favourite" for=""><i class="fa-solid fa-heart" style="color: #000;"></i></label>
+                            </div>
+                            <!-- contenitore descrizione card -->
+                            <div class="description">
+                                <div class="brand">Guess</div>
+                                <div class="product"><strong>ROSES TEE</strong></div>
+                                <div class="price"><span class="new-price">20,99&#8364 </span><span class="old-price">29.99&#8364;</span></div>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="col-33">
+                        <!-- terza card -->
+                        <div class="card">
+                            <!-- contenitore immagine -->
+                            <div class="image">
+                                <img id="img3" src="./img/3.webp" alt="">
+                                <img id="img3b" src="./img/3b.webp" alt="">
+                                <label class="discount" for="">-30%</label>
+                                <label class="favourite" for=""><i class="fa-solid fa-heart" style="color: #000;"></i></label>
+                            </div>
+                            <!-- contenitore descrizione card -->
+                            <div class="description">
+                                <div class="brand">Come Zucchero Filato</div>
+                                <div class="product"><strong>VOGLIA DI COLORI PASTELLO</strong></div>
+                                <div class="price"><span class="new-price">129,99&#8364 </span><span class="old-price">184,99&#8364;</span></div>
+                            </div>    
+                        </div>                   
+                    </div>
+                    <div class="col-33">
+                        <!-- quarta card -->
+                        <div class="card">
+                            <!-- contenitore immagine -->
+                            <div class="image">
+                                <img id="img4" src="./img/4.webp" alt="">
+                                <img id="img4b" src="./img/4b.webp" alt="">
+                                <label class="discount" for="">-50%</label>
+                                <label class="sustainability" for="">Sostenibilità</label>
+                                <label class="favourite" for=""><i class="fa-solid fa-heart" style="color: #000;"></i></label>
+                            </div>
+                            <!-- contenitore descrizione card -->
+                            <div class="description">
+                                <div class="brand">Levi's</div>
+                                <div class="product"><strong>TEE UNISEX</strong></div>
+                                <div class="price"><span class="new-price">14,99&#8364 </span><span class="old-price">29.99&#8364;</span></div>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="col-33">
+                        <!-- quinta card -->
+                        <div class="card">
+                            <!-- contenitore immagine -->
+                            <div class="image">
+                                <img id="img5" src="./img/5.webp" alt="">
+                                <img id="img5b" src="./img/5b.webp" alt="">
+                                <label class="favourite" for=""><i class="fa-solid fa-heart" style="color: #000;"></i></label>
+                            </div>
+                            <!-- contenitore descrizione card -->
+                            <div class="description">
+                                <div class="brand">Maya Deluxe</div>
+                                <div class="product"><strong>STRIPE BODICE</strong></div>
+                                <div class="price"><span class="new-price">99,99&#8364 </span></div>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="col-33">
+                        <!-- sesta card -->
+                        <div class="card">
+                            <!-- contenitore immagine -->
+                            <div class="image">
+                                <img id="img6" src="./img/6.webp" alt="">
+                                <img id="img6b" src="./img/6b.webp" alt="">
+                                <label class="sustainability" for="">Sostenibilità</label>
+                                <label class="favourite" for=""><i class="fa-solid fa-heart" style="color: #000;"></i></label>
+                            </div>
+                            <!-- contenitore descrizione card -->
+                            <div class="description">
+                                <div class="brand">Esprit</div>
+                                <div class="product"><strong>MAGLIONE - BLACK</strong></div>
+                                <div class="price"><span class="new-price">29,99&#8364 </span></div>
+                            </div>
+                        </div>
+                    </div>
                 </div>
             </div>
         </main>
+        <!-- footer -->
+        <footer>
+
+        </footer>
     </body>
 </html>
