@@ -134,6 +134,14 @@ main .col-33 {
     position: relative;
 }
 
+.favourite {
+    color: black;
+}
+
+.favourite:hover {
+    color: red;
+}
+
 /* prima card */
 
 #img1b {
