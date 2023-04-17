@@ -3,3 +3,78 @@
     padding: 0;
     box-sizing: border-box;
 }
+
+body {
+    font-family: roboto, sans-serif;
+}
+
+/* utilities */
+
+.row {
+    display: flex;
+    width: 70%;
+    height: 100%;
+    margin: 0 auto;
+}
+
+.col-33 {
+    width: calc(100% / 3);
+    display: flex;
+}
+
+/* sezione header */
+
+header {
+    background-color: rgb(255, 105, 0);
+    height: 80px;
+}
+
+header ul {
+    list-style: none;
+    color: white;
+    display: flex;
+    flex-direction: row;
+}
+
+header .col-33.left {
+    align-items: center;
+}
+
+header li {
+    margin-right: 5px;
+}
+
+header .col-33.center {
+    align-items: center;
+    justify-content: center;
+}
+
+header img {
+    height: 3em;
+}
+
+header .col-33.right {
+    align-items: center;
+    justify-content: flex-end;
+}
+
+header i {
+    margin-left: 5px;
+}
+
+/* main */
+
+.container-cards {
+    margin-top: 50px;
+}
+
+.container-cards .row {
+    flex-wrap: wrap;
+}
+
+main .col-33 {
+    margin: 0 10px 10px 0;
+    width: calc(100% / 3 - 10px);
+    height: 300px;
+    background-color: blue;
+}
